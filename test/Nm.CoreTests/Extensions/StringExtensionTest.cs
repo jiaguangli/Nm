@@ -31,4 +31,9 @@ public class StringExtensionTest
         Assert.Equal(str3.IsNullOrEmpty(),string.IsNullOrEmpty(str3));
         Assert.Equal(str4.IsNullOrEmpty(),string.IsNullOrEmpty(str4));
     }
+
+    [Fact]
+    public void FileBeLocked_Test()
+    {
+    }
 }
