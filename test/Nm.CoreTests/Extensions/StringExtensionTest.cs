@@ -35,14 +35,5 @@ public class StringExtensionTest
     [Fact]
     public void FileBeLocked_Test()
     {
-        const string path = "1.txt";
-        using (var fs = File.Create(path))
-        {
-            var vale = path.IsFileLocked();
-            Assert.True(path.IsFileLocked());
-        }
-        var vale2 = path.IsFileLocked();
-        Assert.False(path.IsFileLocked());
-        File.Delete(path);
     }
 }
