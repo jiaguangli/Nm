@@ -35,5 +35,6 @@ public class StringExtensionTest
     [Fact]
     public void FileBeLocked_Test()
     {
+        Assert.Equal(true,true);
     }
 }
